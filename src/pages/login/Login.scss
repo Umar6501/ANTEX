@@ -105,3 +105,107 @@
     }
   }
 }
+@media (max-width: 461px) {
+  .login-page {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .container {
+      .login-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .logo {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+          font-family: cursive;
+          .version {
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 4px 9px;
+            transform: scale(0.7);
+            border-radius: 23px;
+            background: linear-gradient(
+              320deg,
+              rgba(0, 140, 255, 0.678),
+              rgba(128, 0, 128, 0.308)
+            );
+          }
+        }
+        .register-section {
+          margin-top: 50px;
+        }
+        .register-bg {
+          top: -390px;
+          width: 330px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 416px) {
+  .login-page {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .container {
+      .login-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .logo {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+          font-family: cursive;
+          .version {
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 4px 9px;
+            transform: scale(0.7);
+            border-radius: 23px;
+            background: linear-gradient(
+              320deg,
+              rgba(0, 140, 255, 0.678),
+              rgba(128, 0, 128, 0.308)
+            );
+          }
+        }
+        .register-section {
+          margin-top: 50px;
+        }
+        .register-bg {
+          top: -390px;
+          width: 330px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 434px) {
+  .login-page {
+    .container {
+      .login-wrapper {
+        .register-section {
+          transform: scale(0.8) translateX(-10px);
+        }
+        .register-bg {
+          top: -390px;
+          width: 330px;
+          display: none;
+        }
+      }
+    }
+  }
+}
